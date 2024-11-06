@@ -1,0 +1,72 @@
+body{
+    /* mise en page de la coleur et du margin */
+    margin: 0;
+    background-color: #2b2d3b;
+}
+
+
+header:hover{
+    /* mise en place du hover pour ajuster le fond */
+    background-color: rgba(0, 0, 0, 0.5);
+}
+header {
+    /* mise en place taille , emplacement et transition dans le header */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transition: background-color ease-in-out 1s;
+}
+header .logo img {
+    /* mise en place du logo et de sa taille */
+    width: 20%;
+    display: block;
+    max-width: 160px;
+    min-width: 55px;
+}
+header nav {
+    /* mise en place de la taille et l'emplacement de la nav */
+    display: none;
+    align-self: center;
+    justify-content: space-between;
+    margin-right: 5%;
+    width: 100%;
+    height: auto;
+}
+
+button{
+    display: flex;
+    background-color: #E0CDA9;
+}
+.img {
+    display: flex;
+    align-self: center;
+    width: 20px;
+    height: 20px;
+}
+@media (min-width:750px){
+    header nav {
+        display: flex;
+    }
+    button{
+        display: none;
+    }
+    header nav a {
+        /* mise en place des liens de navigations de la nav */
+        color: white;
+        display: inline-block;
+        font-size: 1em;
+        font-weight: bold;
+        letter-spacing: 1px;
+        padding: 1% 3%;
+        text-decoration: none;
+        text-transform: uppercase;
+        width: auto;
+    }
+    header nav .resto{
+        background-color: #E0CDA9;
+        border-radius: 25px;
+        padding: 0 15px;
+        display: flex;
+        align-items: center;
+    }
+}
