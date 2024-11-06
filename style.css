@@ -92,13 +92,13 @@ main section {
 
 .Menu article {
     width: 100%;
-    display: flex;
-    flex-direction: column;
 }
 
 .Menu article img {
-    justify-content: center;
     width: 100%;
+}
+
+.Menu article div {
     display: flex;
     flex-direction: column;
 }
