@@ -120,3 +120,28 @@ hr {
     border-radius: 2px;
 }
 
+@media (min-width: 750px) {
+    .Menu article {
+        justify-content: space-between;
+    }
+    
+    .Menu article img {
+        width: 60%;
+    }
+
+    .Menu article div {
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .txtright {
+        display: flex;
+    }
+
+    .txtleft {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+}
