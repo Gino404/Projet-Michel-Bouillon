@@ -11,7 +11,21 @@ main {
     display: flex;
     flex-direction: column;
 }
-
+#intro {
+    background-image: url(./assets/img/cover_dark.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+div#intro {
+        position: relative;
+        height: 50vh;
+}
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    height: 40vh;
+}
 header:hover{
     /* mise en place du hover pour ajuster le fond */
     background-color: rgba(0, 0, 0, 0.5);
