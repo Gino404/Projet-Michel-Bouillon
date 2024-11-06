@@ -1,9 +1,16 @@
 body{
     /* mise en page de la coleur et du margin */
     margin: 0;
+    padding: 0;
+    width: 100%;
     background-color: #2b2d3b;
+    color: white;
 }
-
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
 
 header:hover{
     /* mise en place du hover pour ajuster le fond */
@@ -70,3 +77,46 @@ button{
         align-items: center;
     }
 }
+
+main section {
+    width: 100%;
+}
+
+.Menu {
+    width: 80%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Menu article {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Menu article img {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Menu article h3 {
+    align-self: center;
+}
+
+.Menu article p {
+    text-align: center;
+}
+
+hr {
+    border: 0;
+    background-color: #e0cda9;
+    margin: 5vh 0;
+    height: 5px;
+    width: 100%;
+    border-radius: 2px;
+}
+
