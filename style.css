@@ -96,7 +96,7 @@ main section {
     width: 100%;
 }
 
-.Menu, .Restaurant {
+.Menu, .Restaurant, .Review {
     width: 80%;
     align-self: center;
     display: flex;
@@ -132,6 +132,32 @@ hr {
     height: 5px;
     width: 100%;
     border-radius: 2px;
+}
+
+@media (min-width: 750px) {
+    .Menu article {
+        justify-content: space-between;
+    }
+
+    .Menu article img {
+        width: 60%;
+    }
+
+    .Menu article div {
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .txtright {
+        display: flex;
+    }
+
+    .txtleft {
+        display: flex;
+        flex-direction: row-reverse;
+    }
 }
 
 .Restaurant>div {
@@ -200,28 +226,25 @@ hr {
     background-position: center;
 }
 
-@media (min-width: 750px) {
-    .Menu article {
-        justify-content: space-between;
-    }
+.Review {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
-    .Menu article img {
-        width: 60%;
-    }
+.Review article {
+    width: 30%;
+}
 
-    .Menu article div {
-        width: 35%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
+.Review article img {
+    width: 100%;
+}
 
-    .txtright {
-        display: flex;
-    }
+.Review article div {
+    display: flex;
+    justify-content: space-between;
+}
 
-    .txtleft {
-        display: flex;
-        flex-direction: row-reverse;
-    }
+.Review article div img {
+    width: 15%;
 }
